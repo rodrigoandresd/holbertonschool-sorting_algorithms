@@ -61,7 +61,7 @@ void recursion_quick_sort(int *array, int low, int high, size_t size)
 }
 
 /**
- * quick_sort - that sorts an array of integers in ascending order 
+ * quick_sort - that sorts an array of integers in ascending order
  * using the Quick sort algorithm
  * @array: array
  * @size: size of the array
