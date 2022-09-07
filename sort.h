@@ -21,8 +21,6 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
-/* macros valores constantes */
-
 /* prototypes */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
@@ -32,7 +30,7 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 listint_t *create_listint(const int *array, size_t size);
 void swap_nodes(listint_t *node);
-
-/* macros functions */
+void recursion_quick_sort(int *array, int low, int high, size_t size);
+int partition(int *array, int low, int high, size_t size);
 
 #endif /* _SORT_H */
